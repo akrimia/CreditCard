@@ -1,0 +1,98 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.Card {
+  width: 700px;
+  display: flex;
+  justify-content: space-between;
+}
+.inputs {
+  margin-top: 100px;
+  margin-left: 40px;
+}
+.inputs input {
+  margin-top: 20px;
+  border: solid #7c9fa730;
+  line-height: 30px;
+  border-radius: 10px;
+}
+.CreditCard {
+  background-image: url("https://backgroundcheckall.com/wp-content/uploads/2017/12/credit-card-background-6.jpg");
+  width: 1500px;
+  height: 360px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  color: white;
+  font-size: 20px;
+  border-radius: 20px;
+}
+.style {
+  margin-top: 20px;
+  margin-right: 10px;
+}
+.CodeCard {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  width: 350px;
+}
+.Text {
+  font-size: 12px;
+}
+.CodeCard1 {
+  flex: 3;
+}
+.CodeCard1 span {
+  float: left;
+  margin-left: 40px;
+  padding-top: 10px;
+}
+.Cardholder {
+  float: left;
+  margin-left: 40px;
+}
+
+.CodeCard2 {
+  flex: 1;
+}
+.CodeCard3 {
+  flex: 1;
+}
+
+.Title h1 {
+  float: right;
+  width: 300px;
+  margin-bottom: 5px;
+}
+.ImgVisa img {
+  width: 80px;
+}
+.InfosVisa {
+  flex: 3;
+}
+.ImgVisa {
+  flex: 1;
+}
+.Infos {
+  display: flex;
+  justify-content: space-around;
+}
+
+.PuceCard img {
+  border-radius: 10px;
+  width: 70px;
+  height: 70px;
+  float: left;
+  margin-left: 50px;
+}
+.NumCard {
+  background-color: rgba(5, 77, 37, 0.308);
+  opacity: 0.6;
+  width: 300px;
+  letter-spacing: 1px;
+  font-size: 29px;
+  text-shadow: 1px 1px 1px #000;
+  font-family: monospace;
+}
